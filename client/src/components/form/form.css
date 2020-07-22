@@ -1,0 +1,60 @@
+.modal {
+  border-radius: 10px;
+}
+.modal .modal-header {
+  background-color: #1f1f1f;
+  border: none;
+  height: 10px;
+  padding: 2px;
+}
+.modal-header .close {
+  position: absolute;
+  /* background-color: red; */
+  padding: 1rem 1rem;
+  /* margin: auto; */
+  z-index: 1;
+  right: 15px;
+  top: 10px;
+  color: white;
+}
+.modal-header .close:hover {
+  text-shadow: none;
+}
+
+.modal .modal-body {
+  background-color: #1f1f1f;
+  border: none;
+  font-family: 'Product sans';
+  font-size: 36;
+}
+
+form .form-control {
+  background-color: rgba(210, 210, 210, 0.25);
+  border: 2px solid #d2d2d2;
+  color: #d2d2d2;
+  /* padding: 20px 10px; */
+}
+
+form .form-file-label {
+  background-color: rgba(210, 210, 210, 0.25);
+  color: red;
+}
+
+.modal-backdrop {
+  display: none;
+}
+
+.half {
+  width: 510px;
+  margin: auto;
+}
+.small-form {
+  margin: 30px auto 0;
+  width: 300px;
+}
+
+.stretch Button {
+  width: 300px;
+  margin-top: 15px;
+  padding: 5px 0;
+}
